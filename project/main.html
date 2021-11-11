@@ -1,22 +1,44 @@
-register-step-2.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        li {
+            color: blue; /* Цвет маркеров */
+        }
+
+        li span {
+            color: blue; /* Цвет текста */
+        }
+    </style>
 </head>
 <body>
-
-Выберите катеорию
-Поищите что-нибудь
-Популярные
-Супы
-Горячие блюда
-Сеты
-Пиццы
-WOK
-
-
-
-
+<main style="width: 320px; margin: 0 auto;">
+    <h1><b>Выберите категорию</b></h1>
+    <hr>
+    <input type="search" id="site-search" name="q" placeholder="Поищите что-нибудь"
+           aria-label="Поищите что-нибудь" style="height:25px; width:320px">
+    <hr>
+    <ul>
+        <p>
+        <li><a href="/lesson10work/project/category.html" title="Популярные"><span>Популярные</span></a></li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/category.html" title="Популярные"><span>Супы</span></a></li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/category.html" title="Горячие блюда"><span>Горячие блюда</span></a></li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/category.html" title="Сеты"><span>Сеты</span></a></li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/category.html" title="Пиццы"><span>Пиццы</span></a></li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/category.html" title="WOK"><span>WOK</span></a></li>
+        </p>
+    </ul>
 </body>
 </html>

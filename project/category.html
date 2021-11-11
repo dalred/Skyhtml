@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        a span {
+            color: blue; /* Цвет текста */
+        }
+
+        p {
+            font-family: "Times New Roman", sans-serif;
+            font-size: 15pt; /* Размер шрифта в пунктах */
+        }
+    </style>
 </head>
 <body>
-
-Назад
-
-Пиццы
-
-Валентин
-Оливки, перец, лук, бекон, вяленое мясо
-450Р В корзину
-
-Иоганн Георг
-Томантая паста, зеленые листочки, моцарелла
-740Р В корзину
-
-Маргарита
-Томатная паста, базилик, масло оливковое, моцарелла
-390 Р В корзину
-
+<main style="width: 320px; margin: 0 auto;">
+    <h3><a href="/lesson10work/project/main.html" title="Назад"><span>back</span></a></h3>
+    <p><h2>Пиццы</h2></p>
+    <hr>
+    <form action="/lesson10work/project/extra.html">
+        <p><img src="img/pizza-valentine.png" width="300" height="300"></p>
+        <p>
+        <h3>Валентин</h3></p>
+        <p>Оливки, перец, лук, бекон,<br>вяленое мясо</p>
+        <p><input type="submit" value="450Р В корзину" style="height:30px; width:120px"></p>
+        <p><img src="img/pizza-faust.png" width="300" height="300"></p>
+        <p>
+        <h3>Иоганн Георг</h3></p>
+        <p>Томантая паста, зеленые<br> листочки,моцарелла</p>
+        <p><input type="submit" value="740Р В корзину" style="height:30px; width:120px"></p>
+        <p><img src="img/pizza-margarita.png" width="300" height="300"></p>
+        <p>
+        <h3>Маргарита</h3></p>
+        <p>Томатная паста, базилик,<br>масло оливковое, моцарелла</p>
+        <p><input type="submit" value="390 Р В корзину" style="height:30px; width:120px"></p>
+    </form>
 </body>
 </html>

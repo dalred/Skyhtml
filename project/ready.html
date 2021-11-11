@@ -3,8 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        table.style1 {
+            width: 100%;
+            text-align: left;
+        }
+
+        table.style2 {
+            width: 100%;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-
+<main style="width: 320px; margin: 0 auto;">
+    <h2><b>Ваш заказ готовится!</b></h2>
+    <table class="style1">
+        <tr>
+            <th>21:10</th>
+            <th>21:40</th>
+            <th>21:50</th>
+        </tr>
+        <tr>
+            <td>Заказан</td>
+            <td>Выезжает</td>
+            <td>У вас</td>
+        </tr>
+    </table>
+    <hr>
+    <table class="style2">
+        <tr>
+            <td><p>Роллы Мэрилэнд</p></td>
+            <th style="text-align:right">330 Р</th>
+        </tr>
+        <tr>
+            <td><p>Пицца с ананасами</p></td>
+            <th style="text-align:right">504 Р</th>
+        </tr>
+        <tr>
+            <td><p>Лапша ушастая</p></td>
+            <th style="text-align:right">470 Р</th>
+        </tr>
+    </table>
+    <hr>
+    <table class="style2">
+        <tr>
+            <td><p>Лапша ушастая</p></td>
+            <th style="text-align:right">1304 Р</th>
+        </tr>
+    </table>
+    <form action="/lesson10work/project/main.html">
+        <p><input type="submit" value="Отменить" style="height:30px; width:100px"></p>
+    </form>
 </body>
 </html>

@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        li {
+            color: blue; /* Цвет маркеров */
+        }
+
+        li span {
+            color: blue; /* Цвет текста */
+        }
+    </style>
 </head>
 <body>
-
-Что-нибудь еще добавить к заказу?
-
-Столовые приборы
-Палочки для еды
-Перчатки, чтобы есть руками
-
-Продолжить
+<main style="width: 320px; margin: 0 auto;">
+    <form action="/lesson10work/project/delivery.html">
+        <h2><b>Что-нибудь еще <br>добавить к заказу?</b></h2>
+        <HR>
+        <p>
+        <li><a href="/lesson10work/project/delivery.html" title="Столовые приборы"><span>Столовые приборы</span></a>
+        </li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/delivery.html" title="Палочки для еды"><span>Палочки для еды</span></a></li>
+        </p>
+        <p>
+        <li><a href="/lesson10work/project/delivery.html" title="Перчатки, чтобы есть руками"><span>Перчатки, чтобы есть руками</span></a>
+        </li>
+        </p>
+        </ul>
+        <p><input type="submit" value="Продолжить" style="height:30px; width:120px"></p>
+    </form>
 </body>
 </html>
